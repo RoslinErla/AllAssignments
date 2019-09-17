@@ -1,0 +1,23 @@
+# Given input that represents a floating point number, that is, made up of digits and at least one decimal point, convert the input to a float and print it with the following specifications:
+
+# * field width of 12
+
+# * 2 decimal digits of precision
+
+# * right justified
+
+ 
+
+# For example, if the input is
+
+# 1234.56789
+
+# The output will be
+
+#      1234.57
+
+# Note the five spaces to the left of the digit 1.
+
+a_str = input("Input a float: ")
+a_float = float(a_str)
+print("{:12.2f}".format(a_float))
